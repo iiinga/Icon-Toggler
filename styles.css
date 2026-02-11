@@ -1,0 +1,23 @@
+* {
+    font-family: Tahoma, sans-serif;
+}
+
+.filled {
+    transition: .3s;
+    color: red;
+}
+
+.favorite-icon {
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}   
+
+.favorite-icon:hover {
+    transform: scale(1.2);
+}
+
+.list-items {
+    list-style-type: none;
+}
